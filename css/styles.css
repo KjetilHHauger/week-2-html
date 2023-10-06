@@ -1,31 +1,23 @@
-body {
-    font-family: 'Roboto', sans-serif;;
+section {
+    background: beige;
+    min-height: 380px;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid lightcoral;
 }
 
-.banner {
-    position: relative;
-    height: 524px;
-}
-
-.banner-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: 0px 0%;
-}
-
-.banner-content {
-    position: absolute;
-    top: 0;
-    color: rgb(255, 255, 0);
-    width: 100%;
-    background-color: rgb(0 0 0 / 20%);
+form {
     height: 100%;
 }
 
-.banner-content h1 {
-    position: absolute;
-    top: 40%;
-    text-align: center;
-    width: 100%;
+label, input, textarea {
+    display: block;
+}
+
+#message {
+    resize: none;
+}
+
+.container {
+    margin: 16px 0; /*first value is top and bottom, second is for right and left*/
 }
